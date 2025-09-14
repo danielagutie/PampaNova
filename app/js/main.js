@@ -11,8 +11,8 @@ const setPage = (currentPage) => {
     title = "Productos"
     menuSelected = 'menu-products';
   }
-  else if (currentPage.includes('index.html')) {
-    title = "Bienenvenido al sistema"
+  else {
+    title = "Bienvenido al sistema"
     menuSelected = 'menu-index';
   }
 
